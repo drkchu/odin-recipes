@@ -14,20 +14,40 @@ h2 {
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .ingredients {
-    background-color: lightblue;
+  background-color: lightblue;
 }
 
 .steps {
-    background-color: lightcoral;
+  background-color: lightcoral;
 }
 
 .description {
-    font-family: cursive;
+  font-family: cursive;
+}
+
+#takoyaki-link,
+#beef-wellington-link,
+#chocolate-macarons-link {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+#takoyaki-link {
+  background-color: lightsalmon;
+}
+
+#beef-wellington-link {
+  background-color: rosybrown;
+}
+
+#chocolate-macarons-link {
+  background-color: chocolate;
 }
